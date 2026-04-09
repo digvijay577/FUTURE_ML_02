@@ -1,0 +1,15 @@
+Sales Forecasting using Machine Learning
+
+Sales forecasting is an essential application of Machine Learning that helps businesses predict future demand based on historical data. Accurate sales prediction plays a key role in improving business operations such as inventory management, financial planning, and workforce allocation. In this project, a Machine Learning model is developed to forecast future sales using past sales data.
+
+The main objective of this project is to analyze historical sales records and build a predictive model that can estimate future sales values. By doing so, businesses can make informed decisions, reduce risks, and improve overall efficiency. The dataset used in this project consists of two main attributes, namely date and sales, where the date represents the day of transaction and sales indicate the total sales on that day. The data shows a gradual increase in sales over time, which reflects a growing business trend.
+
+To begin with, the dataset was preprocessed by converting the date column into a proper datetime format and sorting the data in chronological order. This step ensures that the time-based analysis is accurate. After preprocessing, feature engineering was performed to extract useful information from the date column. New features such as day, month, year, and day of the week were created. Additionally, a lag feature representing the previous day’s sales was introduced to help the model understand temporal dependencies in the data.
+
+A Linear Regression model was used to train the system, as it is simple and effective for predicting numerical values. The dataset was divided into training and testing sets, where the model learned patterns from the training data and made predictions on the testing data. The performance of the model was evaluated using Mean Absolute Error, which measures the average difference between actual and predicted sales values.
+
+The results show that the model is able to capture the trend of sales and generate predictions that are close to the actual values. A graphical visualization was created to compare actual sales with predicted sales, and the similarity between the two lines indicates that the model performs reasonably well.
+
+This project demonstrates how Machine Learning can be applied to solve real-world business problems. The forecasting model can help businesses plan inventory more effectively, avoid overstocking or stock shortages, and optimize resource allocation. It also supports better decision-making by providing insights into future demand patterns.
+
+In conclusion, the sales forecasting model developed in this project provides a practical solution for predicting future sales. Although the model performs well on the given dataset, its accuracy can be further improved by using larger datasets and more advanced techniques such as time-series models or deep learning approaches.

@@ -1,0 +1,21 @@
+ticket,category,priority
+Payment failed but money deducted,Billing,High
+Unable to login to my account,Account,Medium
+Website is very slow and not loading,Technical,High
+Need refund for my order,Billing,High
+Account locked after multiple attempts,Account,Medium
+App crashing when opening,Technical,High
+Billing issue in last invoice,Billing,Medium
+Forgot password reset not working,Account,Medium
+General question about services,General,Low
+Unable to update profile,Technical,Medium
+Payment declined but amount debited,Billing,High
+Login page not responding,Technical,High
+Error in billing statement,Billing,Medium
+Cannot access my account,Account,Medium
+App not opening properly,Technical,High
+Refund not processed yet,Billing,High
+Technical issue in website,Technical,High
+Account verification problem,Account,Medium
+Need help with subscription,General,Low
+Slow performance in app,Technical,Medium
